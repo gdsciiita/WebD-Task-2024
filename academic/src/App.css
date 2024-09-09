@@ -1,0 +1,41 @@
+/* styles.css */
+
+body {
+    cursor: none; 
+  }
+  
+  .custom-cursor {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 0, 255, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .square-box {
+    background: linear-gradient(to bottom right, #38bdf8, #0ea5e9);
+  }
+  
+  .bg-gradient-to-r {
+    background: linear-gradient(to right, #4a4e69, #22223b);
+  }
+  
+  .bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #38bdf8, #0ea5e9); 
+  }
+  
+  .shadow-3d-square {
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4), -6px -6px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .shadow-neon {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.4);
+  }
+  
+  .shadow-inner {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.25), inset -5px -5px 10px rgba(255, 255, 255, 0.25);
+  }
+  
