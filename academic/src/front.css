@@ -1,24 +1,24 @@
-
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .bg-college {
-    background-image: url('https://www.iiita.ac.in/uploads/carousel/12288_o303.jpg'); /* Add your college image URL here */
-  }
-  
-  .shadow-3d {
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3), -6px -6px 15px rgba(255, 255, 255, 0.2);
-  }
-  
-  .shadow-button-glow {
-    box-shadow: 0 0 10px rgba(100, 100, 255, 0.6), 0 0 20px rgba(100, 100, 255, 0.4);
-  }
-  
-  input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-college {
+  background-image: url('/college.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.shadow-3d {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3), -6px -6px 15px rgba(255, 255, 255, 0.2);
+}
+
+.shadow-button-glow {
+  box-shadow: 0 0 10px rgba(100, 100, 255, 0.6), 0 0 20px rgba(100, 100, 255, 0.4);
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
