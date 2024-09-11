@@ -11,9 +11,9 @@ function Front() {
     e.preventDefault();
 
     // Simple authentication logic
-    if (username === 'bikram' && password === '1234') {
+    if (username === 'Student' && password === 'Student123') {
       navigate('/student-dashboard');
-    } else if (username === 'admin' && password === 'admin123') {
+    } else if (username === 'Admin' && password === 'Admin123') {
       navigate('/admin-dashboard');
     } else {
       alert('Invalid username or password');
