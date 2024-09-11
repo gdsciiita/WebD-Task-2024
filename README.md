@@ -7,6 +7,9 @@ A responsive web application for students to search through previous year notes 
 
 - **Student Dashboard**: Sleek design with search functionality for past notes and question papers.
 - **Admin Dashboard**: Management interface for approving submitted resources.
+- **For Admin**:Username:Admin,,Password:Admin123.
+- **For Student**:Username:Student,Password:Student123.
+
 - **Approval Limbo**: A section for resource approval.
 - **Share Resources**: Allows students to contribute their notes, papers, and other academic resources.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
